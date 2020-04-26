@@ -1,0 +1,82 @@
+/* * {
+  z-index: 2;
+} */
+
+.main-con {
+  height: 80rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+}
+
+.main-con .Welcome {
+  display: none;
+}
+
+.one {
+  grid-column: 1/2;
+  padding: 2rem 1rem;
+}
+
+.one h1 {
+  /* font-family: wes; */
+  font-size: 9rem;
+}
+
+.two .ri {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 18rem 41rem;
+}
+
+.two .ri .s {
+  display: none;
+}
+
+.two .ri .center {
+  height: 1rem;
+  grid-column: 1/2;
+  text-align: center;
+  margin: 0 1rem;
+  padding: 0;
+}
+
+/* Projects */
+.projects {
+  height: 80%;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+.project {
+  width: 95%;
+  margin: 2rem 1rem;
+}
+
+.project h1 {
+  font-size: 2rem;
+}
+
+.project p {
+  font-size: 1.6rem;
+  color: rgb(233, 240, 232);
+}
+
+.contact {
+  z-index: 4;
+  height: 30rem;
+}
+
+.contact .foot {
+  font-size: 2.8rem;
+}
+
+i {
+  font-size: 2.8rem;
+}
+
+.end {
+  /* height: 20rem; */
+  font-size: 2rem;
+
+  z-index: 4;
+}
